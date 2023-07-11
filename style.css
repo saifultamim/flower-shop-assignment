@@ -1,0 +1,234 @@
+*{
+    margin:0;
+    padding:0;
+}
+.banner{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(229, 84, 115, 0.10);
+    ;
+}
+.heading-text-banner{
+    font-size: 55px;
+    font-weight: bolder;
+}
+.paragraph-text-banner{
+ line-height:1.5;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+.button-banner{
+    font-size:20px;
+    padding:15px 30px 15px 30px;
+    background-color:#E55473;
+    border-radius:10px;
+    border:0px;
+}
+
+/* main-section*/
+/*feature-section*/
+.text-heading{
+        color: #272727;
+         font-family: Lato;
+          font-size: 40px;
+       font-style: normal;
+        font-weight: 800;
+}
+.text-paragraph{
+    margin-top:15px;
+    margin-bottom:20px;
+    line-height:1.7;
+
+      
+}
+.text-feature-section{
+    margin-top:60px;
+    margin-bottom: 15px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+
+.image-feature-section1{
+    background-color:rgba(167, 33, 98, 0.15);
+    height:450px;
+    width:300px;
+    padding-right:50px;
+    padding-left:50px;
+    border-radius:300px 300px 0px 0px;  
+}
+.image-feature-section2{
+    background-color:rgba(5, 151, 160, 0.15);
+    height:450px;
+    width:300px;
+    padding-right:50px;
+    padding-left:50px;
+    border-radius:300px 300px 0px 0px;  
+}
+.image-feature-section3{
+    background-color:rgba(71, 125, 17, 0.15);
+    height:450px;
+    width:300px;
+    padding-right:50px;
+    padding-left:50px;
+    border-radius:300px 300px 0px 0px;  
+}
+
+.image-section{
+   position:relative;
+   top:149px;
+   
+}
+.image-text{
+    text-decoration: underline;
+    margin-top:20px;
+}
+.sub-feature-section1,.sub-feature-section2,.sub-feature-section3{
+    text-align: center;
+}
+.sub-feature-section{
+    display:flex;
+    gap:20px;
+}
+.feature-section{
+    display:flex;
+    justify-content: center;
+}
+/*main-banner-section*/
+.main-banner-section{
+    display:flex;
+    justify-content: center;
+    margin-top:60px;
+}
+.sub-banner-section{
+    display:flex;
+    width: 1200px;
+     height: 250px;
+     justify-content: center;
+     justify-content: space-around;
+     align-items: center;
+     background-color: rgba(39, 39, 39, 0.05);
+     border-radius: 5px;
+     
+}
+/*hot-deal-section*/
+.hot-deal-section{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    height:520px;
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-top:80px;
+}
+.text-hot-deal-section > p{
+    line-height: 1.5;
+    text-align: center;
+    margin-top:25px;
+    
+}
+.text-hot-deal-section > h1{
+   text-align:center;
+    
+}
+.hot-deal-button{
+    font-size:20px;
+    padding:15px 30px;
+    text-align: center;
+    margin-left:170px;
+    margin-top:30px;
+    border:0px;
+    border-radius: 5px;
+    background-color: #E55473;
+}
+.image-hot-deal-section{
+    margin-left: 110px;
+}
+/*instagram-section*/
+.instagram-content > p{
+    line-height:1.5;
+    margin-top:25px;
+    margin-bottom:25px;
+}
+.instagram-content{
+    text-align: center;
+    margin-top:100px;
+}
+.sub-instagram-photo{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+}
+/*subscribe-section*/
+
+.subscribe-section{
+   
+   display:flex;
+        height: 450px;
+        align-items: center;
+        justify-content: center;
+  
+}
+.sub-subscribe-section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:1185px;
+     height:250px;
+     background-image:url('image/Rectangle\ 9.png');
+     text-align: center;
+     border-radius:5px;
+}
+input[type="text"]{
+    font-size:20px;
+    padding-left:15px;
+    width: 700px;
+     height: 52px;
+     border-radius:5px;
+     border:0px;
+     
+}
+.subscribe-button{
+    font-size:20px;
+    padding:15px 30px 15px 30px;
+    background-color:#E55473;
+    border-radius:10px;
+    border:0px;
+    margin-left:10px;
+}
+/*footer-section*/
+.footer-section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:400px;
+    background-color: black;
+    color:white;
+    text-align:center;
+}
+.sub-footer-section>p{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.flower,.deal{
+    color:#E55473;
+}
+.copy-paragraph{
+    color:rgba(255, 255, 255, 0.40);
+}
+.other-section{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    margin-bottom:25px;
+    background-color: tomato;
+    align-items: center;
+}
+.image-photo{
+    height:342px;
+    width:280px;
+}
+.flower{
+    color:white;
+}
